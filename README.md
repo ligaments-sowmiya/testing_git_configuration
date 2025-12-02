@@ -3,10 +3,10 @@
 Auto-generated REST API using Java Spring Boot
 
 ## Generated on
-2025-12-01 12:57:28
+2025-12-02 16:42:03
 
 ## Models
-User
+Product
 
 ## Architecture
 - **Entity Layer**: JPA entities with Lombok annotations
@@ -39,14 +39,14 @@ The API will be available at `http://localhost:8080`
 - `GET /` - API information
 
 ### Resources
-- `GET /api/users` - List all Users
-- `POST /api/users` - Create a User
-- `GET /api/users/{id}` - Get a User by ID
-- `PUT /api/users/{id}` - Update a User
-- `DELETE /api/users/{id}` - Delete a User
+- `GET /api/products` - List all Products
+- `POST /api/products` - Create a Product
+- `GET /api/products/{id}` - Get a Product by ID
+- `PUT /api/products/{id}` - Update a Product
+- `DELETE /api/products/{id}` - Delete a Product
 
 ## Database
-Database: mysql
+Database: postgresql
 
 ## Project Structure
 ```
@@ -69,5 +69,5 @@ Use tools like Postman, cURL, or your favorite API client to test the endpoints.
 
 Example cURL request:
 ```bash
-curl -X GET http://localhost:8080/api/users
+curl -X GET http://localhost:8080/api/products
 ```
